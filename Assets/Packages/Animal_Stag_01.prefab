@@ -607,6 +607,8 @@ GameObject:
   - component: {fileID: 8165715306962116376}
   - component: {fileID: 2553994357453335381}
   - component: {fileID: -6065620061211085641}
+  - component: {fileID: -6742990370519613676}
+  - component: {fileID: 6510496257724591345}
   m_Layer: 0
   m_Name: Animal_Stag_01
   m_TagString: Untagged
@@ -684,7 +686,40 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18303980f5ae7374bb45d1b4bf7939ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20
+  speed: 10
+--- !u!65 &-6742990370519613676
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709699923668058830}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.17599496, y: 0.470016, z: 0.45809522}
+  m_Center: {x: 0.0023304767, y: 0.22657895, z: 0.04203467}
+--- !u!114 &6510496257724591345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709699923668058830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4b808d823a7f594ebd18dcc3bda488f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8835714001436219619
 GameObject:
   m_ObjectHideFlags: 0
